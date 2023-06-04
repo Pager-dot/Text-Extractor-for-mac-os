@@ -3,7 +3,7 @@ import subprocess
 
 class Utility(rumps.App):
     def __init__(self):
-        super(Utility, self).__init__("--_--")
+        super(Utility, self).__init__("Utility",icon='Text.png')
         self.menu = ["Text Extraction","Quit"]
         self._quit_button =None
 
